@@ -4,20 +4,37 @@ venv/
 ENV/
 env/
 
-# קבצי קומפילציה של פייתון
+# קבצי קומפילציה של Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# IDE
+# קבצי לוגים ו־temp
+*.log
+*.tmp
+
+# IDEs וקונפיגורציות מקומיות
 .vscode/
 .idea/
 
-# קבצים זמניים
-*.log
-*.tmp
-*.swp
+# קבצי מערכת
+.DS_Store
+Thumbs.db
 
-# קבצים פרטיים
+# קבצי סוד וסביבות
 .env
 *.secret
+
+# תוצאות ריצה מקומית
+*.sqlite3
+*.db
+*.bak
+
+# קבצי build ותיעוד אוטומטי
+*.egg-info/
+build/
+dist/
+
+# JSON ודוגמיות אם הן זמניות
+data/results/
+data/*.json
