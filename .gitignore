@@ -1,0 +1,23 @@
+# סביבות וירטואליות
+venv/
+.venv/
+ENV/
+env/
+
+# קבצי קומפילציה של פייתון
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# קבצים זמניים
+*.log
+*.tmp
+*.swp
+
+# קבצים פרטיים
+.env
+*.secret
