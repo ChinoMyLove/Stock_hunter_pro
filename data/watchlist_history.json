@@ -1,0 +1,60 @@
+{
+  "watchlist": [
+    {
+      "symbol": "AVGO",
+      "date_added": "2025-06-20T10:15:00.000Z",
+      "entry_price": 1400.00,
+      "rs_rating": 83,
+      "status": "active",
+      "notes": "Strong breakout above resistance"
+    },
+    {
+      "symbol": "NVDA", 
+      "date_added": "2025-06-19T14:30:00.000Z",
+      "entry_price": 900.00,
+      "rs_rating": 91,
+      "status": "active",
+      "notes": "AI leadership, institutional buying"
+    },
+    {
+      "symbol": "META",
+      "date_added": "2025-06-18T09:45:00.000Z", 
+      "entry_price": 500.00,
+      "rs_rating": 78,
+      "status": "active",
+      "notes": "Recovery from oversold levels"
+    }
+  ],
+  "history": [
+    {
+      "date": "2025-06-20T10:30:00.000Z",
+      "total_analyzed": 50,
+      "passed_criteria": 12,
+      "success_rate": 24.0,
+      "file_path": "data/results/stock_analysis_20250620_103000.csv"
+    },
+    {
+      "date": "2025-06-19T16:15:00.000Z",
+      "total_analyzed": 25,
+      "passed_criteria": 8,
+      "success_rate": 32.0,
+      "file_path": "data/results/stock_analysis_20250619_161500.csv"
+    },
+    {
+      "date": "2025-06-18T11:20:00.000Z",
+      "total_analyzed": 75,
+      "passed_criteria": 15,
+      "success_rate": 20.0,
+      "file_path": "data/results/stock_analysis_20250618_112000.csv"
+    }
+  ],
+  "created": "2025-06-15T08:00:00.000Z",
+  "last_updated": "2025-06-20T10:30:00.000Z",
+  "version": "1.0.0",
+  "settings": {
+    "min_rs_rating": 70,
+    "auto_add_threshold": 7,
+    "max_watchlist_size": 50,
+    "notifications_enabled": true
+  }
+}

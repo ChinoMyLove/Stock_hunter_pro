@@ -1,0 +1,68 @@
+# Stock Hunter Pro - Requirements
+# Core Dependencies for Professional Stock Analysis Platform
+
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# Data Analysis & Financial Data  
+yfinance>=0.2.18
+pandas>=1.5.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# HTTP Requests & Networking
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Excel file support
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# Date/Time handling
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# Development & Debugging
+python-dotenv>=1.0.0
+
+# Data Visualization (optional)
+plotly>=5.15.0
+matplotlib>=3.7.0
+
+# Async Support (for future enhancements)
+aiohttp>=3.8.0
+
+# Additional Utils for robust CSV handling
+chardet>=5.0.0
+
+# Performance & Memory (optional but recommended)
+psutil>=5.9.0
+
+# Production Server (uncomment for deployment)
+# gunicorn>=21.2.0
+# waitress>=2.1.2
+
+# Security (recommended for production)
+# cryptography>=41.0.0
+
+# Testing (development only - uncomment if needed)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+
+# Note: Python 3.8+ required
+# Tested with Python 3.9, 3.10, 3.11
+
+# Installation Instructions:
+# pip install -r requirements.txt
+
+# Quick install for core functionality:
+# pip install flask flask-cors yfinance pandas numpy scipy requests openpyxl
+
+# For development environment:
+# pip install -r requirements.txt
+# pip install pytest pytest-cov  # For testing
+
+# For production environment:
+# pip install -r requirements.txt 
+# pip install gunicorn  # For production server
